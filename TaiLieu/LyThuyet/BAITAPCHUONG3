@@ -1,0 +1,14 @@
+Cac khoa chinh:
+PHong ban: MaPhng
+NhanVien: MaNv
+DIaDiem_Png: MAPHG + DIADIEM
+ThanNhan: MaNv + TenNv + Ngaysinh
+DeAn: MADA
+PhanCong: MA_NVIEN, MADA
+
+Khoa Ngoai:
+Phong Ban: TruongPhong
+NHanVien: PHG, MaNQL
+DiaDIem_PHG: MAPHG
+ThanNhan: MaNV, 
+
