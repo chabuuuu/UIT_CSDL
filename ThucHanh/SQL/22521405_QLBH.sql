@@ -90,3 +90,4 @@ CHECK(
 	);
 
 DROP TABLE CTHD;
+
