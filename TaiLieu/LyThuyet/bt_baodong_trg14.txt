@@ -1,0 +1,5 @@
+X(0) = BD
+X1 = BD U EG = BDEG
+X2 = BDEG U C = BDEGC
+X3 = BDEGC U A = ABDEGC = R+
+Vậy BD+F = ABDEGC = R+

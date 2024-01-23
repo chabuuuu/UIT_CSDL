@@ -1,3 +1,13 @@
+USE QLBH
+IF EXISTS (SELECT * FROM SYS.DATABASES WHERE NAME = 'QLBH')
+BEGIN
+	ALTER DATABASE QLGV SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    USE MASTER;
+	DROP DATABASE QLGV;
+END
+GO
+CREATE DATABASE QLGV
+
 --1.Tạo quan hệ và khai báo tất cả các ràng buộc khóa chính, khóa ngoại. Thêm vào 3 thuộc tính GHICHU, DIEMTB, XEPLOAI cho quan hệ HOCVIEN.
 CREATE TABLE KHOA(
     MAKHOA  varchar(4) primary key,

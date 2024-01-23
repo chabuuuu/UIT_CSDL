@@ -1,0 +1,3 @@
+BD+F = BDG != R+
+-> BD KHÔNG PHẢI KHÓA CỦA R
+

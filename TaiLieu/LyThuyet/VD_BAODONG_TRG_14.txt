@@ -1,0 +1,13 @@
+f1: B->A
+F2: DA->CE
+f3: D->H
+f4: GH->C
+f5: AC->D (X)
+
+Giải
+-X(0) = AC
+-X(1)=AC U D = ACD (do f5)
+-X(2) = ACD U H = ACDH (do f3)
+- X(3) = ACDH U E = ACDHE (do f2)
+- X(4) = ACDHE = X(3)
+Vậy AC+F = ACDHE
